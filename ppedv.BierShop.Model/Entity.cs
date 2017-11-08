@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ppedv.BierShop.Model
 {
-    public class Class1
+    public abstract class Entity
     {
+        public int Id { get; set; }
     }
 }

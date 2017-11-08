@@ -5,6 +5,14 @@ VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.BierShop.Model", "ppedv.BierShop.Model\ppedv.BierShop.Model.csproj", "{402C7BC2-BD5D-4A93-8D43-EC95A62C3B15}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.BierShop.Data.EF", "ppedv.BierShop.Data.EF\ppedv.BierShop.Data.EF.csproj", "{929213D7-8272-4B7D-BB77-F3B64EE721BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.BierShop.Data.EF.Tests", "ppedv.BierShop.Data.EF.Tests\ppedv.BierShop.Data.EF.Tests.csproj", "{7581DAF3-5516-4A17-B1DD-A065990EFA84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.BierShop.Logic", "ppedv.BierShop.Logic\ppedv.BierShop.Logic.csproj", "{C43A165D-5B4E-424D-9D9D-A38035379904}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ppedv.BierShop.Logic.Tests", "ppedv.BierShop.Logic.Tests\ppedv.BierShop.Logic.Tests.csproj", "{2C1B8224-AA5A-4828-86E9-A9E716D6D12D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{402C7BC2-BD5D-4A93-8D43-EC95A62C3B15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{402C7BC2-BD5D-4A93-8D43-EC95A62C3B15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{402C7BC2-BD5D-4A93-8D43-EC95A62C3B15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{929213D7-8272-4B7D-BB77-F3B64EE721BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{929213D7-8272-4B7D-BB77-F3B64EE721BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{929213D7-8272-4B7D-BB77-F3B64EE721BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{929213D7-8272-4B7D-BB77-F3B64EE721BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7581DAF3-5516-4A17-B1DD-A065990EFA84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7581DAF3-5516-4A17-B1DD-A065990EFA84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7581DAF3-5516-4A17-B1DD-A065990EFA84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7581DAF3-5516-4A17-B1DD-A065990EFA84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C43A165D-5B4E-424D-9D9D-A38035379904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C43A165D-5B4E-424D-9D9D-A38035379904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C43A165D-5B4E-424D-9D9D-A38035379904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C43A165D-5B4E-424D-9D9D-A38035379904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C1B8224-AA5A-4828-86E9-A9E716D6D12D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C1B8224-AA5A-4828-86E9-A9E716D6D12D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C1B8224-AA5A-4828-86E9-A9E716D6D12D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C1B8224-AA5A-4828-86E9-A9E716D6D12D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
